@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>John Wilson E. Diaz - Personal Space</title>
+
+  <!-- Bootstrap 5.3.8 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+  <style>
+    body { background: #eef7ff; }
+    .hero {
+      background: linear-gradient(rgba(0, 40, 90, .72), rgba(0, 90, 160, .72)),
+                  url("gaming-room.png") center/cover;
+      min-height: 430px;
+    }
+    .section-title { color: #0756a6; font-weight: 700; }
+    .hobby-card { transition: transform .2s; }
+    .hobby-card:hover { transform: translateY(-5px); }
+    footer { background: #063b73; }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">My Personal Space</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero d-flex align-items-center text-white">
+    <div class="container text-center">
+      <span class="badge text-bg-info mb-3 px-3 py-2">WELCOME TO MY PERSONAL SPACE</span>
+      <h1 class="display-3 fw-bold">Hi, I'm John Wilson E. Diaz</h1>
+      <p class="lead mb-4">A BSIT student who enjoys technology, creativity, and gaming.</p>
+      <a href="#about" class="btn btn-info btn-lg fw-semibold">Explore My Space</a>
+    </div>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title mb-4">About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="card shadow-sm border-0">
+            <div class="card-body p-4 text-center">
+              <h3 class="card-title text-primary">John Wilson E. Diaz</h3>
+              <p class="card-text">
+                I am a BSIT student interested in computers and technology.
+                I enjoy learning new things and spending my free time gaming.
+                This personal space shows some of my interests and the things I enjoy doing.
+              </p>
+              <div class="row g-3 mt-2">
+                <div class="col-md-4"><div class="p-3 bg-light rounded">
+                  <h5 class="text-primary">Course</h5><p class="mb-0">BS Information Technology</p>
+                </div></div>
+                <div class="col-md-4"><div class="p-3 bg-light rounded">
+                  <h5 class="text-primary">Interest</h5><p class="mb-0">Technology & Computers</p>
+                </div></div>
+                <div class="col-md-4"><div class="p-3 bg-light rounded">
+                  <h5 class="text-primary">Favorite Hobby</h5><p class="mb-0">Gaming</p>
+                </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobbies" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center section-title mb-4">My Hobby</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <div class="card hobby-card shadow border-0 h-100">
+            <div class="card-body text-center p-5">
+              <div class="display-1 mb-3">🎮</div>
+              <h3 class="card-title text-primary">Gaming</h3>
+              <p class="card-text">
+                Gaming is one of my favorite ways to relax and have fun.
+                I enjoy playing games, improving my skills, and experiencing different challenges and adventures.
+              </p>
+              <span class="badge rounded-pill text-bg-primary">My Favorite Hobby</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title mb-4">Get In Touch</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <form class="card shadow-sm border-0 p-4">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Write a message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1 fw-bold">John Wilson E. Diaz</p>
+      <p class="mb-0">My Personal Space &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+          crossorigin="anonymous"></script>
+</body>
+</html>
